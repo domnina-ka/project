@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,20 +7,20 @@
 </head>
 <body>
     <header class="header container">
-        <img class="header__logo" src="images/Логотип.png" alt="" width="150">
-        <h1 class="header__title">Вэллаппи</h1>
+        <img class="header__image" src="images/logo.png" alt="Логотип" width="150" height="70">
+        <h1 class="header__name">Вэллаппи</h1>
         <nav class="header__nav">
-            <ul class="menu">
-                <li class="menu__item"><a href="#part1" class="header__item-link header__item-link--active">Преимущества</a></li>
-                    <li class="menu__item"><a href="#part2" class="header__item-link" href="#">Тарифы</a></li>
-                    <li class="menu__item"><a href="#part3" class="header__item-link" href="#">Местоположение</a></li>
-                    <li class="menu__item"><a href="#part4" class="header__item-link" href="#">Досуг</a></li>
+            <ul class="header__list">
+                <li class="header__item"><a class="header__link" href="#part1">Преимущества</a></li>
+                <li class="header__item"><a class="header__link" href="#part2">Тарифы</a></li>
+                <li class="header__item"><a class="header__link" href="#part3">Местоположение</a></li>
+                <li class="header__item"><a class="header__link" href="#part4">Досуг</a></li>
             </ul>
         </nav>
     </header>
     <!--/ Заголовок -->
     <!-- Основной контент -->
-    <main class="container" id="main">
+    <main>
     <!-- Первый экран -->
     <section class="section promo">
         <div class="promo__content">
@@ -34,50 +34,50 @@
     <!--/ Первый экран -->
 
     <section class="section card">
-        <h2 id="part1" class="section__title">Наши преимущества</h2>
+        <h2 class="section__title" id="part1">Наши преимущества</h2>
         <ul class="card__list">
             <li class="card__item">
                 <h3 class="card__title">Уникальное местоположение</h3>
-                 <img class="card__icon" src="images/Vector 1.png" alt="Иконка стрелки" width="24"
+                 <img class="card__icon" src="images/Vector-1.png" alt="Иконка стрелки" width="24"
                     height="24">
             </li>
             <li class="card__item">
                 <h3 class="card__title">Комфорт и роскошь</h3>
-                 <img class="card__icon" src="images/Vector 1.png" alt="Иконка стрелки" width="24"
+                 <img class="card__icon" src="images/Vector-1.png" alt="Иконка стрелки" width="24"
                     height="24">
             </li>
             <li class="card__item">
                 <h3 class="card__title">Экологическая чистота</h3>
-                 <img class="card__icon" src="images/Vector 1.png" alt="Иконка стрелки" width="24"
+                 <img class="card__icon" src="images/Vector-1.png" alt="Иконка стрелки" width="24"
                     height="24">
             </li>
             <li class="card__item">
                 <h3 class="card__title">Индивидуальный сервис</h3>
-                 <img class="card__icon" src="images/Vector 1.png" alt="Иконка стрелки" width="24"
+                 <img class="card__icon" src="images/Vector-1.png" alt="Иконка стрелки" width="24"
                     height="24">
             </li>
             <li class="card__item">
                 <h3 class="card__title">Разнообразие досуга</h3>
-                 <img class="card__icon" src="images/Vector 1.png" alt="Иконка стрелки" width="24"
+                 <img class="card__icon" src="images/Vector-1.png" alt="Иконка стрелки" width="24"
                     height="24">
             </li>
             <li class="card__item">
                 <h3 class="card__title">Гармония с природой</h3>
-                 <img class="card__icon" src="images/Vector 1.png" alt="Иконка стрелки" width="24"
+                 <img class="card__icon" src="images/Vector-1.png" alt="Иконка стрелки" width="24"
                     height="24">
             </li>
         </ul>
     </section>
     <section class="section card">
-        <h2 id="part2" class="section__title">Тарифы</h2>
+        <h2 class="section__title" id="part2">Тарифы</h2>
         <ul class="card__list">
             <li class="card__item">
                 <h3 class="card__title">Эконом</h3>
                 <p class="card__description">Размещение в комфортабельной палатке на двух человек</p>
                 <p class="card__description">Завтрак включен в цену</p>
                 <p class="card__description">Доступ к общим зонам отдыха и санитарным узлам</p>
-                <p class="card__price">5000 руб/сутки</p>
-                 <img class="card__icon" src="images/econom tarif.png" width="250"
+                <p class="card__description">5000 руб/сутки</p>
+                 <img class="card__icon" src="images/econom-tarif.png" alt="Картинка экономного тарифа" width="250"
                     height="250">
             </li>
             <li class="card__item">
@@ -86,8 +86,8 @@
                 <p class="card__description">Включен завтрак и ужин</p>
                 <p class="card__description">Личный санузел</p>
                 <p class="card__description">Доступ к дополнительным услугам - экскурсии, спа-процедуры и т.д</p>
-                <p class="card__price">8000 руб/сутки</p>
-                 <img class="card__icon" src="images/komfort tarif.png" width="250"
+                <p class="card__description">8000 руб/сутки</p>
+                 <img class="card__icon" src="images/komfort-tarif.png" alt="Картинка комфортного тарифа" width="250"
                     height="250">
             </li>
             <li class="card__item">
@@ -96,76 +96,53 @@
                 <p class="card__description">Полный пансион(завтрак, обед, ужин) </p>
                 <p class="card__description">Личный бассейн или джакузи</p>
                 <p class="card__description">Индивидуальное обслуживание и персональный консьерж</p>
-                <p class="card__price">15000 руб/сутки</p>
-                 <img class="card__icon" src="images/elite tarif.png" width="250"
+                <p class="card__description">15000 руб/сутки</p>
+                 <img class="card__icon" src="images/elite-tarif.png" alt="Картинка элитного тарифа" width="250"
                     height="250">
             </li>
         </ul>
     </section>
-    </section>
     <section class="section card">
-        <h2 id="part3" class="section__title">Местоположение</h2>
-        <img class="card__icon" src="images/Местоположение график.png" width="600"
+        <h2 class="section__title" id="part3">Местоположение</h2>
+        <img class="card__icon" src="images/mestopolo.png" alt="Картинка местоположения" width="600"
                     height="400">
         
     </section>
     <section class="section card">
-        <h2 id="part4" class="section__title">Досуг</h2>
+        <h2 class="section__title" id="part4">Досуг</h2>
         <ul class="card__list">
             <li class="card__item">
                 <h3 class="card__title">Просмотр кинофильмов на открытом воздухе</h3>
-                 <img class="card__icon" src="images/kino.png" width="250"
+                 <img class="card__icon" src="images/kino.png" alt="Картинка кинофильмов" width="250"
                     height="250">
                     <button class="button" type="button">Бронировать</button>
             </li>
             <li class="card__item">
                 <h3 class="card__title">Рыбалка</h3>
-                 <img class="card__icon" src="images/rubalka.png" width="250"
+                 <img class="card__icon" src="images/rubalka.png" alt="Картинка рыбалки" width="250"
                     height="250">
                     <button class="button" type="button">Бронировать</button>
             </li>
             <li class="card__item">
                 <h3 class="card__title">Фитнес</h3>
-                 <img class="card__icon" src="images/fitnes.png" width="250"
+                 <img class="card__icon" src="images/fitnes.png" alt="Картинка фитнеса" width="250"
                     height="250">
                     <button class="button" type="button">Бронировать</button>
             </li>
             <li class="card__item">
                 <h3 class="card__title">Сауна</h3>
-                 <img class="card__icon" src="images/sayna.png" width="250"
+                 <img class="card__icon" src="images/sayna.png" alt="Картинка сауны" width="250"
                     height="250">
                     <button class="button" type="button">Бронировать</button>
             </li>
         </ul>
     </section>
+
+
+
     </main>
-    <footer> 
-        <section>
-            <h2>
-                Меню
-            </h2>
-           
-                <ul class="menu">
-                    <li class="menu__item"><a href="#part1" class="header__item-link header__item-link--active">Преимущества</a></li>
-                    <li class="menu__item"><a href="#part2" class="header__item-link" href="#">Тарифы</a></li>
-                    <li class="menu__item"><a href="#part3" class="header__item-link" href="#">Местоположение</a></li>
-                    <li class="menu__item"><a href="#part4" class="header__item-link" href="#">Досуг</a></li>
-                </ul>
-            
-        </section>
-        <section>
-            <h2>
-               Контакты  
-            </h2>
-            
-                <ul class="menu">
-                    <li class="menu__item"> +79177167321</a></li>
-                    <li class="menu__item"> off.wellappy@hotmail.com</a></li>
-                    <li class="menu__item"> Республика Марий Эл, п. Куяр</a></li>
-                </ul>
-            
-        </section>
-        <p>Изергина Валерия, Домнина Екатерина, СТ-22</p>
+    <footer class="footer"> 
+        <p class="footer__name">Изергина Валерия, Домнина Екатерина, СТ-22</p>
     </footer>
 </body>
 </html>
