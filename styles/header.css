@@ -1,3 +1,7 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+}
 .header__list {
     margin: 0;
     padding: 0;
@@ -13,4 +17,25 @@
     color: #f1d9bb;
     text-decoration: none;
    }
-      
+   .header__image-wrap{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+   } 
+   .header__image-wrap{
+    text-decoration: none;
+    color: #f1d9bb;
+   }
+   .header__title{
+    margin: 0;
+   }
+   .header__list {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+   

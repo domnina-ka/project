@@ -8,3 +8,5 @@
 @import "header.css";
 /* Подключение стилей относящихся к footer */
 @import "footer.css";
+/* подключение основных стилей*/
+@import "main.css";
