@@ -1,3 +1,8 @@
 .footer {
     background-color: #31420b;
 }
+.container{
+    width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+   }

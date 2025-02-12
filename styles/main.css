@@ -1,3 +1,47 @@
 .main {
     padding: 40px 120px 0;
 }
+.container{
+    width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+   }
+.about{
+    display: flex;
+    gap: 50px;
+    border: 4px solid #f1d9bb;
+   }
+   .about__wrap-right{
+    width: 500px;
+    flex-shrink: 0;
+   }
+   .about{
+    background-color: #31420b;
+     color: #f1d9bb;
+     padding: 10px;
+    }
+    .card__item{
+        width: 350px;
+        padding: 15px;
+        background-color: #31420b;
+       color: #f1d9bb;
+        border: 4px solid #f1d9bb;
+       }
+       .card__list {
+        margin: 0;
+        padding: 20px 0;
+        display: flex;
+        gap: 100px;
+        flex-wrap: wrap;
+        list-style-type: none;
+       }
+       .card__list__tarif {
+        margin: 0;
+        padding: 20px 0;
+        list-style-type: none;
+       }
+       .card__list__dosug {
+        margin: 0;
+        padding: 20px 0;
+        list-style-type: none;
+       }

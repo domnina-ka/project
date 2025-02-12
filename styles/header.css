@@ -1,6 +1,7 @@
 .header {
     display: flex;
     justify-content: space-between;
+    border-bottom: 4px solid #f1d9bb;
 }
 .header__list {
     margin: 0;
