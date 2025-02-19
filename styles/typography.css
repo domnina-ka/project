@@ -1,8 +1,4 @@
-/* Контейнер-обертка */
-.container {
-    max-width: 1440px;
-    margin: 0 auto;
-}
+
 
 /* Заголовки */
 .logo {
@@ -20,7 +16,7 @@
     font-weight: 600;
     line-height: 28px;
     color: #f1d9bb;
-    
+    padding: 5px;
     border: 1px solid #f1d9bb;
     border-radius: 16px;
     background-color: transparent;

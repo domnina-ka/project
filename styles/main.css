@@ -1,11 +1,6 @@
 .main {
     padding: 40px 120px 0;
 }
-.container{
-    width: 1440px;
-    margin-left: auto;
-    margin-right: auto;
-   }
 .about{
     display: flex;
     gap: 50px;
