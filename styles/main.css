@@ -1,10 +1,11 @@
 .main {
-    padding: 40px 120px 0;
+    padding: 40px 0px 0;
 }
 .about{
     display: flex;
     gap: 50px;
     border: 4px solid #f1d9bb;
+    justify-content: space-between;
    }
    .about__wrap-right{
     width: 500px;
@@ -14,13 +15,16 @@
     background-color: #31420b;
      color: #f1d9bb;
      padding: 10px;
+     margin-bottom: 40px;
     }
     .card__item{
-        width: 350px;
+        width: 433px;
         padding: 15px;
         background-color: #31420b;
        color: #f1d9bb;
         border: 4px solid #f1d9bb;
+        display: flex;
+        align-items: center;
        }
        .card__list {
         margin: 0;

@@ -16,6 +16,39 @@ body {
     overflow-x: hidden;
 }
 
+.big__title {
+    font-family: 'Montserrat', 'Arial', sans-serif;
+    font-size: 65px;
+    line-height: 80px;
+    color: #f1d9bb;
+
+    background-color: #31420b;
+
+    overflow-x: hidden;
+}
+
+.medium__title {
+    font-family: 'Montserrat', 'Arial', sans-serif;
+    font-size: 35px;
+    line-height: 45px;
+    color: #f1d9bb;
+
+    background-color: #31420b;
+
+    overflow-x: hidden;
+}
+
+.mini__title {
+    font-family: 'Montserrat', 'Arial', sans-serif;
+    font-size: 25px;
+    line-height: 30px;
+    color: #f1d9bb;
+
+    background-color: #31420b;
+
+    overflow-x: hidden;
+}
+
 img {
     display: block;
     max-width: 100%;
