@@ -1,46 +1,174 @@
 .main {
-    padding: 40px 0px 0;
+    padding-top: 40px;
 }
-.about{
+
+.about {
     display: flex;
     gap: 50px;
     border: 4px solid #f1d9bb;
     justify-content: space-between;
-   }
-   .about__wrap-right{
-    width: 500px;
-    flex-shrink: 0;
-   }
-   .about{
     background-color: #31420b;
-     color: #f1d9bb;
-     padding: 10px;
-     margin-bottom: 40px;
-    }
-    .card__item{
-        width: 433px;
-        padding: 15px;
-        background-color: #31420b;
-       color: #f1d9bb;
-        border: 4px solid #f1d9bb;
-        display: flex;
-        align-items: center;
-       }
-       .card__list {
-        margin: 0;
-        padding: 20px 0;
-        display: flex;
-        gap: 100px;
+    color: #f1d9bb;
+    width: 48%;
+    overflow: hidden;
+}
+
+.about__wrap-right {
+    width: 48%;
+    flex-shrink: 0;    
+}
+
+.about__wrap-right img {
+    object-fit: cover;
+    height: 100%;
+}
+
+.tarifs__wrap-left img {
+    object-fit: cover;
+    height: 100%;
+}
+
+.about__wrap-left {
+    padding: 15px 15px 45px 45px;
+}
+
+.about__wrap-left .medium-title {
+    min-height: 180px;
+}
+
+
+
+.hero {
+    display: flex;
+    gap: 100px;
+    border: 4px solid #f1d9bb;
+    justify-content: space-between;
+    background-color: #31420b;
+    color: #f1d9bb;
+    margin-bottom: 40px;
+}
+
+.hero__image {
+    height: 100%;
+}
+
+.hero__wrap-right {
+    width: 50%;
+    flex-shrink: 0;
+    padding: 25px 25px 25px 0;
+}
+
+.hero__title {
+    font-family: 'Montserrat', 'Arial', sans-serif;
+    font-size: 65px;
+    line-height: 80px;
+    color: #f1d9bb;
+
+    background-color: #31420b;
+
+    overflow-x: hidden;
+}
+
+.tarifs {
+    background-color: #31420b;
+    color: #f1d9bb;
+    padding: 10px;
+    margin-bottom: 40px;
+}
+
+.tarifs__wrap-right {
+    padding: 15px;
+    width: auto;
+    flex-shrink: 0;
+    flex: auto;
+}
+
+.tarifs__wrap-left {
+    flex: 0 0 34%;
+}
+
+.tarifs__wrap-left img{
+    width: 100%;
+}
+
+.card__item {
+    width: 433px;
+    padding: 15px;
+    background-color: #31420b;
+    color: #f1d9bb;
+    border: 4px solid #f1d9bb;
+    display: flex;
+    align-items: center;
+}
+
+.card__item-tarif {
+    width: 100%;
+    display: flex;
+    justify-self: flex-start;
+    gap: 50px;
+    border: 4px solid #f1d9bb;
+    margin-bottom: 40px;
+}
+
+.card__list {
+    margin: 0;
+    padding: 20px 0;
+    display: flex;
+    gap: 100px;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+
+.card__list__tarif {
+    margin: 0;
+    padding: 20px 0;
+    list-style-type: none;
+}
+
+.card__list {
+    margin: 0;
+    padding: 20px 0;
+    list-style-type: none;
+}
+
+
+.card__list-dosug {
+    margin: 0;
+    padding: 20px 0;
+    list-style-type: none;
+    display: flex;
         flex-wrap: wrap;
-        list-style-type: none;
-       }
-       .card__list__tarif {
-        margin: 0;
-        padding: 20px 0;
-        list-style-type: none;
-       }
-       .card__list__dosug {
-        margin: 0;
-        padding: 20px 0;
-        list-style-type: none;
-       }
+        gap: 50px;
+}
+
+.card__about {
+    /*тут ваш код кнопки*/
+    transition: transform 0.3s;
+}
+
+.card__about:hover {
+    transform: scale(1.03);
+}
+.benefits__button {
+    flex: 0 0 auto;
+}
+.benefits__button .card__icon-light {
+    display: none;
+}
+
+.benefits__button .card__icon-dark {
+    display: block;
+}
+
+.benefits__button:hover .card__icon-light {
+    display: block;
+}
+
+.benefits__button:hover .card__icon-dark {
+    display: none;
+}
+
+.benefits__button img {
+ height: 28px;
+ width: auto;
+}

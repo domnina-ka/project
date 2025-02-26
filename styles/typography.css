@@ -12,16 +12,23 @@
 
 /* Кнопки */
 .button {
-    font-size: 18px;
     font-weight: 600;
     line-height: 28px;
-    color: #f1d9bb;
-    padding: 5px;
-    border: 1px solid #f1d9bb;
-    border-radius: 16px;
-    background-color: transparent;
-    
+    display: inline-block;
+    background-color: #f1d9bb;
+    color: #31420b;
+    border: 2px solid #f1d9bb;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
     cursor: pointer;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #31420b;
+    color: #f1d9bb;
+    border-color: #f1d9bb;
 }
 
 .button--accent {
@@ -46,4 +53,37 @@
     background-color: transparent;
     border: 1px solid rgba(145, 150, 161, 0.4);
     border-radius: 16px;
+}
+
+.medium-title {
+    font-family: 'Montserrat', 'Arial', sans-serif;
+    font-size: 33px;
+    line-height: 45px;
+    color: #f1d9bb;
+
+    background-color: #31420b;
+
+    overflow-x: hidden;
+}
+
+.mini-title {
+    font-family: 'Montserrat', 'Arial', sans-serif;
+    font-size: 23px;
+    line-height: 30px;
+    color: #f1d9bb;
+
+    background-color: #31420b;
+
+    overflow-x: hidden;
+}
+
+.big-title {
+    font-family: 'Montserrat', 'Arial', sans-serif;
+    font-size: 65px;
+    line-height: 80px;
+    color: #f1d9bb;
+
+    background-color: #31420b;
+
+    overflow-x: hidden;
 }

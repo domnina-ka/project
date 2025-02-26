@@ -10,3 +10,5 @@
 @import "footer.css";
 /* подключение основных стилей*/
 @import "main.css";
+/* Подключение стилей отвечающих за адаптив */
+@import "adaptability.css";
