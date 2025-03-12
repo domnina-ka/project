@@ -1,6 +1,12 @@
 .header {
+    position: fixed;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+    width: 100%;
     display: flex;
     justify-content: space-between;
+    background-color: #31420b;
     border-bottom: 4px solid #f1d9bb;
 }
 .header__list {

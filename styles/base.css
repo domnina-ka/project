@@ -12,7 +12,7 @@ body {
     color: #f1d9bb;
 
     background-color: #31420b;
-
+    scroll-behavior: smooth;
     overflow-x: hidden;
 }
 
