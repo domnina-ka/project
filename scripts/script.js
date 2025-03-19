@@ -41,3 +41,29 @@ document.addEventListener('DOMContentLoaded', () => {
 
     }
 });
+
+document.addEventListener('DOMContentLoaded', () => {
+    const modal = document.getElementById('bookingModal');
+    const openBtns = document.querySelectorAll('.open-booking-modal, .hero__buttons .button');
+    const closeBtn = document.querySelector('.modal__close');
+
+    // Открытие модального окна для всех кнопок с классом .open-booking-modal
+    openBtns.forEach(button => {
+        button.addEventListener('click', () => {
+            modal.style.display = 'block';
+        });
+    });
+
+    // Закрытие модального окна
+    closeBtn.addEventListener('click', () => {
+        modal.style.display = 'none';
+    });
+
+    // Закрытие при клике вне модального окна
+    window.addEventListener('click', (event) => {
+        if (event.target === modal) {
+            modal.style.display = 'none';
+        }
+    });
+});
+

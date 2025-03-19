@@ -106,7 +106,7 @@
                     <p class="card__description mini-title">- Размещение в комфортабельной палатке на двух человек</p>
                     <p class="card__description mini-title">- Завтрак включен в цену</p>
                     <p class="card__description mini-title">- Доступ к общим зонам отдыха и санитарным узлам</p>
-                    <button class="card__description button">5 000 руб/сутки</button>
+                    <button class="card__description button open-booking-modal">5 000 руб/сутки</button>
                     </div>
                 </li>
                 <li class="card__item-tarif">
@@ -120,7 +120,7 @@
                     <p class="card__description mini-title">- Включен завтрак и ужин</p>
                     <p class="card__description mini-title">- Личный санузел</p>
                     <p class="card__description mini-title">- Доступ к дополнительным услугам - экскурсии, спа-процедуры и т.д</p>
-                    <p class="card__description button">8 000 руб/сутки</p>
+                    <button class="card__description button open-booking-modal">8 000 руб/сутки</button>
                 </div>
                 </li>
                 <li class="card__item-tarif">
@@ -134,7 +134,7 @@
                     <p class="card__description mini-title">- Полный пансион(завтрак, обед, ужин) </p>
                     <p class="card__description mini-title">- Личный бассейн или джакузи</p>
                     <p class="card__description mini-title">- Индивидуальное обслуживание и персональный консьерж</p>
-                    <p class="card__description button">15 000 руб/сутки</p>
+                    <button class="card__description button open-booking-modal">15 000 руб/сутки</button>
                 </div>
                 </li>
             </ul>
@@ -189,9 +189,24 @@
 
 
     </main>
-    <footer class="footer container">
-        <p class="footer__name mini-title">Изергина Валерия, Домнина Екатерина, СТ-22</p>
-    </footer>
+
+<!-- Модальное окно бронирования -->
+<div class="modal" id="bookingModal">
+    <div class="modal__content">
+        <span class="modal__close">&times;</span>
+        <div class="modal__header">
+            <img src="images/bron-logo-2.png" alt="Вэллаппи" width="1000">
+        </div>
+        <h2>Забронируй свой домик сейчас!</h2>
+        <form>
+            <input type="email" placeholder="Email" required>
+            <input type="text" placeholder="Имя" required>
+            <input type="tel" placeholder="Телефон" required>
+            <button type="submit" class="modal__button">Отправить</button>
+        </form>
+    </div>
+    
+</div>
 
     <script src="scripts/script.js"></script>
     
