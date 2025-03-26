@@ -8,6 +8,7 @@
     justify-content: space-between;
     background-color: #31420b;
     border-bottom: 4px solid #f1d9bb;
+    z-index: 3;
 }
 .header__list {
     margin: 0;

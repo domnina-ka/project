@@ -67,3 +67,27 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 });
 
+document.addEventListener("DOMContentLoaded", function () {
+    // Получаем все кнопки с ценами
+    const priceButtons = document.querySelectorAll(".open-booking-modal");
+
+    // Создаем массив с новыми значениями цен
+    const prices = ["5000 руб./сутки", "8000 руб./сутки", "15000 руб./сутки"];
+
+    // Проходим по каждой кнопке и заменяем текст на соответствующую цену
+    priceButtons.forEach((button, index) => {
+        button.textContent = prices[index];
+    });
+});
+
+const karta_do=document.querySelector(".card__icon-map");
+const karta_posle=document.querySelector(".card__icon-map-top");
+karta_do.addEventListener('mouseenter', () => {
+    karta_posle.style.display = 'block';
+    /*karta_posle.style.transform="scale(1.2)";
+    karta_posle.style.transition="transform 0.5s";*/
+
+});
+karta_do.addEventListener('mouseleave', () => {
+    karta_posle.style.display = 'none';
+});
