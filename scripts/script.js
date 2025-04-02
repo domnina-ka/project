@@ -91,3 +91,34 @@ karta_do.addEventListener('mouseenter', () => {
 karta_do.addEventListener('mouseleave', () => {
     karta_posle.style.display = 'none';
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+    const menuData = [
+        { text: "Преимущества", href: "#part1" },
+        { text: "Тарифы", href: "#part2" },
+        { text: "Местоположение", href: "#part3" },
+        { text: "Досуг", href: "#part4" }
+    ];
+
+    const menuContainer = document.getElementById("nav-menu");
+
+    function createMenuItem(item) {
+        const li = document.createElement("li");
+        li.classList.add("headeritem", "mini-title");
+
+        const a = document.createElement("a");
+        a.classList.add("header__link");
+        a.href = item.href;
+        a.textContent = item.text;
+
+        li.appendChild(a);
+        return li;
+    }
+
+    menuData.forEach(item => {
+        menuContainer.appendChild(createMenuItem(item));
+    });
+
+    console.log("Динамическое меню загружено");
+});
+
