@@ -129,3 +129,37 @@ window.addEventListener('load', () => {
       document.querySelector('.content').style.display = 'block';
     }, 1500); // 1.5 секунды
   });
+
+
+  document.addEventListener("DOMContentLoaded", () => {
+    const cards = document.querySelectorAll(".card__item");
+    const buttons = document.querySelectorAll(".benefits__button");
+    const apiUrl = "images.json";
+  
+    fetch(apiUrl)
+      .then(response => response.json())
+      .then(images => {
+        buttons.forEach((button, index) => {
+          button.addEventListener("click", () => {
+       
+            const card = cards[index];
+            const wrap = card.querySelector(".card__image-wrap");
+            const data = images.find(item => item.targetIndex === index);
+  
+            if (wrap && data) {
+              wrap.innerHTML = `
+              <img src="${data.imageUrl[0]}" alt="${data.imageAlt}" width="${data.imageWidth}" height="194">
+              `;
+            
+                    if(wrap.style.display !== "block") {
+                        wrap.style.display = "block";
+                    } else {
+                        wrap.style.display = "none";
+                    }
+             
+            } 
+          });
+        });
+      })
+      .catch(error => console.error("Ошибка при загрузке JSON:", error));
+  });

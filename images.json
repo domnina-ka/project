@@ -1,0 +1,38 @@
+[
+    {
+      "imageUrl": ["images/preimushestvo1.png"],
+      "imageAlt": "Уникальное местоположение",
+      "imageWidth": 433,
+      "targetIndex": 0
+    },
+    {
+      "imageUrl": ["images/preimushestvo2.png"],
+      "imageAlt": "Комфорт и роскошь",
+      "imageWidth": 433,
+      "targetIndex": 1
+    },
+    {
+      "imageUrl": ["images/preimushestvo3.png"],
+      "imageAlt": "Экологическая чистота",
+      "imageWidth": 433,
+      "targetIndex": 2
+    },
+    {
+      "imageUrl": ["images/preimushestvo4.png"],
+      "imageAlt": "Индивидуальный сервис",
+      "imageWidth": 433,
+      "targetIndex": 3
+    },
+    {
+      "imageUrl": ["images/preimushestvo5.png"],
+      "imageAlt": "Разнообразие досуга",
+      "imageWidth": 433,
+      "targetIndex": 4
+    },
+    {
+      "imageUrl": ["images/preimushestvo6.png"],
+      "imageAlt": "Гармония с природой",
+      "imageWidth": 433,
+      "targetIndex": 5
+    }
+  ]
