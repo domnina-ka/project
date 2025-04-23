@@ -12,3 +12,4 @@
 @import "main.css";
 /* Подключение стилей отвечающих за адаптив */
 @import "adaptability.css";
+@import url("preloader.css");

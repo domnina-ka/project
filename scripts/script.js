@@ -122,3 +122,10 @@ document.addEventListener("DOMContentLoaded", function () {
     console.log("Динамическое меню загружено");
 });
 
+
+window.addEventListener('load', () => {
+    setTimeout(() => {
+      document.querySelector('.preloader').style.display = 'none';
+      document.querySelector('.content').style.display = 'block';
+    }, 1500); // 1.5 секунды
+  });
