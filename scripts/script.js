@@ -163,3 +163,10 @@ window.addEventListener('load', () => {
       })
       .catch(error => console.error("Ошибка при загрузке JSON:", error));
   });
+
+  var swiper = new Swiper(".mySwiper", {
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+  });

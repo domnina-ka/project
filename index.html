@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/style.css">
 </head>
@@ -28,10 +29,33 @@
             <!-- Первый экран -->
             <section class="section hero">
                 <div class="hero__wrap-left">
-                    <img class="hero__image" src="images/glavnaya.png" alt="Изображение" width="800" height="800">
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img class="swiper-slide-image" src="images/glavnaya.png" alt="Slide 1" width="800" height="800">
+                            </div>
+                            <div class="swiper-slide">
+                                <img class="swiper-slide-image" src="images/glavnaya2.png" alt="Slide 2" width="800" height="800">
+                            </div>
+                            <div class="swiper-slide">
+                                <img class="swiper-slide-image" src="images/glavnaya3.png" alt="Slide 3" width="800" height="800">
+                            </div>
+                            <div class="swiper-slide">
+                                <img class="swiper-slide-image" src="images/glavnaya4.png" alt="Slide 4" width="800" height="800">
+                            </div>
+                            <div class="swiper-slide">
+                                <img class="swiper-slide-image" src="images/glavnaya5.png" alt="Slide 5" width="800" height="800">
+                            </div>
+                        </div>
+                        <!-- Навигация и пагинация ДОЛЖНЫ быть ВНУТРИ блока .swiper -->
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-pagination"></div>
+                    </div>
                 </div>
+            
                 <div class="hero__wrap-right">
-                    <h2 class="hero__title section__title big-title">Вэллаппи - Ваш комфорт на природе</h2>
+                    <h2 class="herotitle sectiontitle big-title">Вэллаппи - Ваш комфорт на природе</h2>
                     <div class="hero__buttons">
                         <button class="button" type="button">Бронировать</button>
                     </div>
@@ -257,6 +281,8 @@
 
         <script src="scripts/script.js"></script>
     </div> <!-- Закрытие .content -->
+      <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 </body>
 
 </html>
